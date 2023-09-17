@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINKMUSIC Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <main class="main_section">
+        <div class="main flex_center">
+            <div class="image_con">
+                <img class="album_img" src="I Really Want to at Your House.jpg" loading="lazy" alt="">
+            </div>
+            <div class="info_con">
+                <div class="info">
+                    <h2 class="song_info song_title">I Really Want to Stay at Your House</h2>
+                    <p class="song_info song_artist">Hallie Coggins and Rosa</p>
+                    <p class="song_info song_album">Cyberpunk 2077: Radio, Vol. 2 (Original Soundtrack)</p>
+                    <p class="song_info song_year">2020</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="play_slider">
+            <div class="slider_center">
+                <div class="slider">
+                    <div class="current_sec"><span id="current_min">00</span>:<span id="current_sec">00</span></div>
+                    <div class="rang_slider_con">
+                        <input type="range" class="rang_slider" id="rang_slider">
+                    </div>
+                    <div class="tottal_sec"><span id="tottal_min">00</span>:<span id="tottal_sec">00</span></div>
+                </div>
+            </div>
+            <div class="play_center flex_center">
+                <div class="play"><button class="play_pause_btn" id="play_pause">
+                        <div id="play_icon_con" class="play_i_con show_play_pause">
+                            <svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path  d="M123.66884 112.99537a4.3426383 4.3426383 0 0 0-4.34209 4.34165v38.66718a4.3426383 4.3426383 0 0 0 6.51313 3.76062l33.48687-19.33381a4.3426383 4.3426383 0 0 0 0-7.5208l-33.48687-19.33381a4.3426383 4.3426383 0 0 0-2.17104-.58103z" transform="translate(-84.336876 -86.670761)"/></svg>
+                        </div>
+                        <div id="pause_icon_con" class="pause_i_con hide_play_pause">
+                            <svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path  d="M120.25871 112.37462c-3.28071 0-5.9216 2.6414-5.9216 5.92212v36.74814c0 3.28072 2.64089 5.92212 5.9216 5.92212 3.28072 0 5.92212-2.6414 5.92212-5.92212v-36.74814c0-3.28072-2.6414-5.92212-5.92212-5.92212zm28.15643 0c-3.28072 0-5.92212 2.6414-5.92212 5.92212v36.74814c0 3.28072 2.6414 5.92212 5.92212 5.92212 3.28071 0 5.9216-2.6414 5.9216-5.92212v-36.74814c0-3.28072-2.64089-5.92212-5.9216-5.92212z" transform="translate(-84.336876 -86.670761)"/></svg>
+                        </div>
+                    </button></div>
+            </div>
+        </div>
+        <div class="btn_center">
+            <button id="down_btn" class="btn">Download</button>
+        </div>
+
+   
+    </main>
+    <Article>
+        <h4 style="text-align: left;">Song detail:</h4>Song Name: Cold<br />Artist Name: NEFFEX<br />Album Name: Cold - single<br /><br />Download song from NEFFEX - cold Album<br /><br />Download NEFFEX - Cold song for free, the song was released on Jun 20, 2014 on YouTube <br />
+    </Article>
+    <audio  id="audio" src="I Really Want to Stay at Your House.mp3"></audio>
+</body>
+
+</html>
